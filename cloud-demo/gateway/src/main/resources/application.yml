@@ -5,7 +5,7 @@ spring:
     name: Gateway
   cloud:
     nacos:
-      server-addr: localhost:3301
+      server-addr: 192.168.32.194:3301
       username: nacos
       password: nacos
       discovery:

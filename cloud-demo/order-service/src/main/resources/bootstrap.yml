@@ -7,7 +7,7 @@ spring:
     nacos:
       username: nacos
       password: nacos
-      server-addr: localhost:3301
+      server-addr: 192.168.32.194:3301
       config:
         file-extension: yaml
         namespace: ef5c761c-3893-4e7d-b4ba-815e4d3f880c
