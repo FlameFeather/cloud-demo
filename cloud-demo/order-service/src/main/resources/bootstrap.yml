@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: OrderServer
+  profiles:
+    active: daily
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      server-addr: localhost:3301
+      config:
+        file-extension: yaml
+        namespace: ef5c761c-3893-4e7d-b4ba-815e4d3f880c
